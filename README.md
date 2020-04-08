@@ -9,7 +9,7 @@ Useful for converting a web page to Confluence markup, for adding to the wiki or
 
 `mvn clean install`
 
-Builds an executable jar containing necessary dependencies.  You should then be able to move the jar whereever you want to run it.
+Builds an executable jar.  Note: the plan is for this jar to contain all dependencies so you can put it whereever you want in your path, but it's not working yet, so you should run it from the folder where it's built.
 
 ## Usage
 
@@ -23,3 +23,7 @@ with the same name as the input file, with ".cf" appended to it.
 ## Credits
 
 Based on [html-to-jira-markup](https://github.com/paul-nelson-baker/html-to-jira-markup) by [Paul Nelson Baker](https://github.com/paul-nelson-baker)
+
+## Disclaimer
+
+This software is offered without support.  Use at your own risk.
